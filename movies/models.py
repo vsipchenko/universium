@@ -19,7 +19,7 @@ class MovieGenre(models.Model):
 
 
 class MovieDirector(models.Model):
-    director_id = ''
+    director_id = models.ForeignKey('actors.Director', on_delete=models.DO_NOTHING)
     movie_id = models.ForeignKey('Movie', on_delete=models.DO_NOTHING)
 
     class Meta:
