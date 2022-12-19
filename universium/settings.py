@@ -18,6 +18,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'actors.apps.ActorsConfig',
     'movies.apps.MoviesConfig',
+    'core.apps.CoreConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
