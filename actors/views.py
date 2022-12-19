@@ -3,7 +3,7 @@ from rest_framework.views import APIView
 from rest_framework import status
 
 from actors.models import Actor
-from utils import get_actor_movies_statistics
+from actors.utils import get_actor_movies_statistics
 
 
 class ActorsStatsView(APIView):

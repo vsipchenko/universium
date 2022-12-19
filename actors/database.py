@@ -1,4 +1,3 @@
-import psycopg2.extras
 from django.db import connection
 
 
