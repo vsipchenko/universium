@@ -21,9 +21,6 @@ class Command(BaseCommand):
     }
 
     def add_arguments(self, parser):
-        # parser.add_argument('entity', nargs='+', type=str)
-        # parser.add_argument('file_path', nargs='+', type=str)
-
         parser.add_argument('--entity', type=str)
         parser.add_argument('--file_path', type=str)
         parser.add_argument('--chunksize', type=int, default=1000)
